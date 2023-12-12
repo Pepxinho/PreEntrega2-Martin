@@ -1,6 +1,7 @@
 import NavBarLogo from "./assets/img/logo-em.png";
 import CartWidget from "../CartWidget/CartWidget";
 
+
 const NavBar = () => {
 
  return (
@@ -13,21 +14,18 @@ const NavBar = () => {
     <div className="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          <a class="nav-link active" aria-current="page" href="../public/index.html">Inicio</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Componentes
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Tarjetas gráficas</a></li>
+            <li><a class="dropdown-item" href="#">Tarjetas Gráficas</a></li>
             <li><a class="dropdown-item" href="#">Placas madre</a></li>
             <li><a class="dropdown-item" href="#">Procesadores</a></li>
             <li><a class="dropdown-item" href="#">Memorias</a></li>
             <li><a class="dropdown-item" href="#">Almacenamiento</a></li>
-            <li><a class="dropdown-item" href="#">Fuentes</a></li>
-            <li><a class="dropdown-item" href="#">Cooling</a></li>
-            <li><a class="dropdown-item" href="#">Periféricos</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
